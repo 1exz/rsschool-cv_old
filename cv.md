@@ -7,6 +7,19 @@
    * GitHub: 1exz
    * Telegram: lexz_aqualung
 ---
+## Summary
+I’m currently employed as a ССTV electrician in Minsk. But I decided to change my life and started to study JavaScript last year. I like coding and strive for professional development.  I’m goal-oriented and hard-working person. I eager to improve my developer skills and have a passion for building high-class products. 
+
+***
+## SKills
+   * HTML
+   * CSS
+   * JavaScript (Basic)
+   * Git, GitHub
+   * VS Code
+   * Angular(Basic)
+
+  ***
 ## Code Example
 Array  KATA from CODEWARS: You are given two sorted arrays that both only contain integers. Your task is to find a way to merge them into a single one,
  sorted in asc order. Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
