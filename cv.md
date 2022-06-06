@@ -33,7 +33,7 @@ function mergeArrays(arr1,arr2) {
     }
 ```
 ***
- ## Languages:
+## Languages:
    * English - Pre-Intermediate
    * Belarusian\Russian - Native
 
