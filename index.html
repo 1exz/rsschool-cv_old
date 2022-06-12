@@ -93,49 +93,50 @@
                         high-class products.</p>
                 </div>
             </section>
-            <div class="skills" id="skills">
-                <h2>Skills</h2>
-                <ul class="nav-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript (Basic)</li>
-                    <li>Git, GitHub</li>
-                    <li>VS Code</li>
-                    <li>Angular(Basic)</li>
-                </ul>
+        </div>
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul class="nav-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Angular(Basic)</li>
+            </ul>
+        </div>
+        <div class="code">
+            <h2>Code example</h2>
+            <p>Array KATA from CODEWARS: You are given two sorted arrays that both only contain integers. Your task
+                is to find a way to merge them into a single one, sorted in asc order. Complete the function
+                mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays. You don't need to worry
+                about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2
+                are empty, then just return an empty array. Note: arr1 and arr2 may be sorted in different orders.
+                Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.</p>
+            <div class="codewars" id="code">
+                <p>function mergeArrays(arr1,arr2) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return Array.from(new
+                    Set(arr1.concat(arr2).sort((a,b)=>a-b)))
+                    <br> }
+                </p>
             </div>
-            <div class="code">
-                <h2>Code example</h2>
-                <p>Array KATA from CODEWARS: You are given two sorted arrays that both only contain integers. Your task
-                    is to find a way to merge them into a single one, sorted in asc order. Complete the function
-                    mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays. You don't need to worry
-                    about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2
-                    are empty, then just return an empty array. Note: arr1 and arr2 may be sorted in different orders.
-                    Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.</p>
-                <div class="codewars" id="code">
-                    <p>function mergeArrays(arr1,arr2) { <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return Array.from(new
-                        Set(arr1.concat(arr2).sort((a,b)=>a-b)))
-                        <br> }
-                    </p>
-                </div>
-            </div>
-            <div class="courses" id="courses">
-                <h2>Professional Courses/Masterclasses:</h2>
-                <ul class="nav-courses">
-                    <li>Website development basic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BELHARD autumn 2021</li>
-                    <li>HTML & CSS online Masterclass &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; autumn 2021.</li>
-                    <li>JavaScript web application development (Angular)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IT-academy
-                        autumn 2021 - spring 2022</li>
-                </ul>
-            </div>
-            <div class="languages" id="languages">
-                <h2>languages:</h2>
-                <ul class="nav-languages">
-                    <li>English Pre-Intermediate</li>
-                    <li> Belarusian\Russian Native</li>
-                </ul>
-            </div>
+        </div>
+        <div class="courses" id="courses">
+            <h2>Professional Courses/Masterclasses:</h2>
+            <ul class="nav-courses">
+                <li>Website development basic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BELHARD autumn 2021</li>
+                <li>HTML & CSS online Masterclass &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; autumn 2021.</li>
+                <li>JavaScript web application development (Angular)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IT-academy
+                    autumn 2021 - spring 2022</li>
+            </ul>
+        </div>
+        <div class="languages" id="languages">
+            <h2>languages:</h2>
+            <ul class="nav-languages">
+                <li>English Pre-Intermediate</li>
+                <li> Belarusian\Russian Native</li>
+            </ul>
+        </div>
     </main>
 
     <footer class="footer">
@@ -148,7 +149,7 @@
         </div>
         <div>
             <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS Logo"
-                    width="75" height="15" ></a>
+                    width="75" height="15"></a>
         </div>
     </footer>
 
