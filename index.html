@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slyle.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fresca&family=Orbitron&family=Pacifico&family=Rokkitt:wght@200&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
+    <header class="header">
+
+        <div class="foto">
+            <img src="assets/img/avaMain.png" alt="my photo" width="270px" class="round">
+        </div>
+        <nav class="nav">
+            <div class="info">
+                <div>
+                    <h1>Alexey Buchko</h1>
+                </div>
+                <div>
+                    <h3>FRONT-END DEVELOPER</h2>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+        </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="contacts" id="contacts">
+            <ul class="nav-constacts">
+                <ol>
+                    <div class="icons"><img src="assets\icons\phone.svg" width="20px">
+                        <a href="tel:+37529 7569638">
+                            +37529 7569638
+                        </a>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="icons"><img src="assets/icons/email.svg" width="20px">
+                        <a href="mailto: alex.buchko.m@gmail.com">
+                            alex.buchko.m@gmail.com
+                        </a>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="icons"><img src="assets/icons/location.svg" width="20px">
+                        <p> Minsk, Republic Belarus\ Poland</p>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="icons"><img src="assets/icons/github.svg" width="20px">
+                        <a href="https://github.com/1exz"> GitHub</a>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="icons"><img src="assets/icons/telegram.svg" width="20px">
+                        <a href="https://t.me/1exz" target="_blank">Telegram</a>
+                    </div>
+                </ol>
+                <ol>
+                    <div class="icons"><img src="assets/icons/github.svg" width="20px">
+                        <a href="skype:[1exz]" target="_blank">Skype</a>
+                    </div>
+                </ol>
+            </ul>
+        </div>
+        <div>
+            <section class="about" id="summary">
+                <div class="about">
+                    <h1>Summary</h1>
+                    <p>I’m currently employed as a CCTV electrician in Minsk. But I decided to change my life and
+                        started to
+                        study JavaScript last year. I like coding and strive for professional development. I’m
+                        goal-oriented
+                        and hard-working person. I eager to improve my developer skills and have a passion for building
+                        high-class products.</p>
+                </div>
+            </section>
+            <div class="skills" id="skills">
+                <h1>Skills</h1>
+                <ul class="nav-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                    <li>Angular(Basic)</li>
+                </ul>
+            </div>
+            <div class="code">
+                <h1>Code example</h1>
+                <p>Array KATA from CODEWARS: You are given two sorted arrays that both only contain integers. Your task
+                    is to find a way to merge them into a single one, sorted in asc order. Complete the function
+                    mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays. You don't need to worry
+                    about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2
+                    are empty, then just return an empty array. Note: arr1 and arr2 may be sorted in different orders.
+                    Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.</p>
+                <div class="codewars" id="code">
+                    <p>function mergeArrays(arr1,arr2) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return Array.from(new
+                        Set(arr1.concat(arr2).sort((a,b)=>a-b)))
+                        <br> }
+                    </p>
+                </div>
+            </div>
+            <div class="courses" id="courses">
+                <h1>Professional Courses/Masterclasses:</h1>
+                <ul class="nav-courses">
+                    <li>Website development basic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BELHARD autumn 2021</li>
+                    <li>HTML & CSS online Masterclass &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; autumn 2021.</li>
+                    <li>JavaScript web application development (Angular)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IT-academy
+                        autumn 2021 - spring 2022</li>
+
+            </div>
+            <div class="languages" id="languages">
+                <h1>languages:</h1>
+                <ul class="nav-languages">
+                    <li>English Pre-Intermediate</li>
+                    <li> Belarusian\Russian Native</li>
+             
+            </div>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a href="https://github.com/1exz"><img src="assets/icons/github.svg" alt="gitgub logo" width="50"
+                    height="15"></a>
+        </div>
+        <div>
+            <p>© 2022</p>
+        </div>
+        <div>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS Logo"
+                    width="75" height="15"></a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
